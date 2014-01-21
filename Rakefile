@@ -8,7 +8,7 @@ version = PickledOptparse::Version::STRING
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.required_ruby_version = '~> 1.9.2' # Everyone should upgrade, now!
+    gem.required_ruby_version = '>= 1.9.2' # Everyone should upgrade, now!
     gem.name = "pickled_optparse"
     gem.version = version
     gem.summary = %Q{Adds required switches to Ruby's OptionParser class}

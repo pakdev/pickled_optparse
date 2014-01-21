@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = %q{http://github.com/PicklePumpers/pickled_optparse}
   s.require_paths = ["lib"]
-  s.required_ruby_version = Gem::Requirement.new("~> 1.9.2")
+  s.required_ruby_version = Gem::Requirement.new(">= 1.9.2")
   s.rubygems_version = %q{1.3.7}
   s.summary = %q{Adds required switches to Ruby's OptionParser class}
   s.test_files = [
